@@ -1,0 +1,110 @@
+.presentacion {
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: inset 0 0em 15em rgb(0, 0, 0);
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+.presentacion.cargado {
+    opacity: 1;
+}
+
+.perfil {
+    width: 250px;
+    height: 250px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+.nombre {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+    text-shadow: 3px 3px 3px rgb(240, 128, 128);
+}
+
+.titulo {
+    font-size: 18px;
+    color: #666;
+    margin: 10px;
+}
+
+.descripcion {
+    font-size: 15px;
+    color: rgb(24, 24, 24);
+    text-align: center;
+    margin: 15px;
+}
+
+.redes_sociales {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.redes_sociales li {
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 0 10px;
+    justify-content: center;
+}
+
+.redes_sociales a {
+    border: 1px solid white;
+    text-decoration: none;
+    color: #0077b5;
+    opacity: 0.5;
+    background-color: rgb(80, 0, 0);
+    padding: 5px 10px;
+    border-radius: 25px;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes_sociales a.twitter {
+    color: #1DA1F2;
+    
+}
+
+.redes_sociales a.github {
+    color: #333;
+}
+
+.redes_sociales a:hover {
+    opacity: 1;
+    display: flex;
+    transform: translateY(-5px);
+}
+
+button {
+    background-color: rgb(131, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightsalmon; 
+    color: white; 
+    transition: all 0.5s;
+}
+
+html {
+    background: linear-gradient(to bottom, rgb(77, 77, 77), rgb(0, 0, 0));
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
